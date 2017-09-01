@@ -1,0 +1,27 @@
+body {
+	font-family:'Dosis', sans-serif;
+	background-color: #fff;
+	margin: 0;
+}
+.slideshow-list {
+  margin: 0;
+}
+
+.slideshow-item {
+  list-style: none;
+}
+.slideshow-media-active {
+  max-width: 600px;
+  display: block;
+}
+
+.slideshow-media {
+  max-width: 600px;
+  display: none;
+}
+
+.prev, .next {
+  font-size: 50px;
+  margin: 155px;
+  cursor: pointer;
+}

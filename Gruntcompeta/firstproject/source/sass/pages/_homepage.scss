@@ -1,0 +1,48 @@
+.homepage {
+    
+    font-family: $fontpack;
+    
+    .firstclass {
+        text-align: center;
+        color: $black;
+    }
+    
+    .first-p { 
+        text-align: center;
+        color: $red;
+    }
+
+    .second-p {
+        float: left;
+        color: $green;
+        margin-left: 1vw;
+        margin-top: 1vh;
+    }
+
+    .navigation {
+        background-color: $gray;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+
+        &__list-item {
+            display: inline-block;
+        }
+
+        &__link {
+            color: $white;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        &__link:hover {
+            color: $red;
+            padding: 20px;
+            text-decoration: none;
+        }
+    }
+    
+}

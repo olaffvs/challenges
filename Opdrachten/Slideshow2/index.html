@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Javascript Slideshow</title>
+	
+	<!--Links-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<!--Make container-->	
+<div id="container">
+  <div class="slideshow-container">
+        <a class="prev" onclick="minSlide();">&#10094;</a>
+        <a class="next" onclick="plusSlide();">&#10095;</a>
+    <ul class="slideshow-list">
+      <li class="slideshow-item">
+          <img src="img1.jpg" class="slideshow-media-active" id="image1">
+      </li>
+      
+      <li class="slideshow-item">
+          <img src="img2.jpg" class="slideshow-media" id="image2">
+      </li>
+
+      <li class="slideshow-item">
+          <img src="img3.jpg" class="slideshow-media" id="image3">
+      </li>
+
+      <li class="slideshow-item">
+          <img src="img4.jpg" class="slideshow-media" id="image4">
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<!-- JS link-->
+<script src="index.js"></script>
+
+</body>
+
+</html>

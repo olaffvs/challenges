@@ -1,0 +1,82 @@
+body {
+	font-family:'Dosis', sans-serif;
+	background-color: #fff;
+	margin: 0;
+}
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 250px 0 250px;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 5%;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: #535353;
+  	text-align: center;
+}
+
+/*
+.slideshow {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 40%;
+    background-color: #868686;
+    border-radius: 3px;
+}
+
+.leftArrow {
+	width: 3%;
+	float: left;
+	margin-top: 19%;
+}
+
+.rightArrow {
+	float: right;
+	width: 3%;
+	margin-top: 19%;
+}
+*/
